@@ -1,0 +1,322 @@
+Logica de programação
+
+- Metacognição: pensar como você pensa
+-Abstração: é a habilidade de concentrar no núcleo do problema, ignorando as partes menos importantes ou acidentais.
+
+Algoritmo: sequencia de passos que resolve um problema
+
+Pseudocódigo: é uma forma genérica de escrever um algoritmo utilizando uma linguagem simples.
+
+Fluxograma: ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequencia logica e coerente do fluxo de dados.
+"é um tipo de diagrama e pode ser  entendido como uma representação esquemática de um processo. Na prática é como a documentação dos passos necessários para execução de um proceso qualquer.
+
+exemplo:
+
+Início -> acordar -> levantar -> tomar café -> ... Fim
+
+
+Variáveis:
+-Na programação, uma variável é um objeto ( uma posição, frequentemente localizada na memória) capaz de reter e representar um valor ou expressão.
+-Uma variável é um espaço na memória do computador destinado  a um dado que é alterado durante a execução do algoritmo.
+
+Constantes:
+-As constantes são valores imutáveis e não são alterados durante a vida útil do programa.
+*As variáveis e as constantes podem ser classificadas basiscamente de quatro tipos: NÚMERICAS, CARACTERES, ALFANUMÉRICAS OU LÓGICAS. 
+
+Expressões aritméticas:
+São expressões que utilizam operadores aritméticos e funcções aritmédicas envolvendo constantes e variáveis.
+exemplo: 50 + 50
+	total+50
+
+Operadores aritméticos:
+
+SOMA +
+SUBTRAÇÃO -
+MULTIPLICAÇÃO *
+DIVISÃO /
+POTENCIAÇÃO ^
+PORCENTAGEM %
+
+Expressões Literais:
+São expressões com constantes e/ou variáveis que tem como resultado valores literais.
+Iremos utilizar as expressões literais na atribuição de valor para uma variável ou constante.
+exemplos:
+
+nome="José da Silva"
+nome←"José da Silva" ( pseudocódigo )
+media=(nota1+nota2+nota3+nota4)/4
+
+Expressões Relacionais:
+São expressões compostas por outras expressões ou variáveis numéricas com operadores relacionais.
+As expressões relacionais retornam valores lógicos ( verdadeero / falso ).
+
+Símbolo		Nome do operador	Exemplo			Significado
+
+>		maior que		x >  y			x é maior que y?	
+>=		maior ou igual		x >= y			x é maior ou igual a y?
+<		menor que		x <  y			x é menor que y?
+<=		menor ou igual		x <= y			x é menor ou igual a y?
+==		igualdade		x == y			x é igual a y?
+!=		diferente de		x != y			x é diferente de y?
+
+
+Tomadas de decisão:
+Quando escrevemos programas, geralmente ocorre a necessidade de decidir o que fazer dependendo de alguma condição encontrada durante a execução.
+
+
+Concatenação:
+É um termo usado em computação para designar a operação de unir o conteúdo de duas strings*.
+*string é uma sequência de caracteres.
+OUTRA DEFINIÇÃO:
+Agrupamento de duas ou mais células que, incluindo fórmulas, textos ou outras informações contida no seu interior, dá origem a um único resultado.
+
+Nota: No programa Flowgorithm o símbolo de concatenação é & .
+
+
+OBSERVAÇÃO: baixar o programa chamado Flowgorithm.
+
+
+Estrutura de repetição:
+
+Dentro da lógica de programação é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos,
+de acordo com uma condição ou com um CONTADOR.
+
+Linguagens de programação e o Portugol:
+
+Linguagem de Programação é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas ( software ).
+Um software pode ser desenvolvido para rodar em um computador, dispositivo móvel ou em qualquer equipamento que permite sua execução.
+
+OUTRA DEFINIÇÃO:
+
+O que é óbvio para você, certamente não é óbvio para uma maquina. E se você quer que a máquina faça algo para você, você precisa, " falar com ela".
+A função das linguagens de programação é servir de um meio de comunicação entre computadores e humanos.
+
+Tipos de linguagens:
+
+Alto nível: Essas são aquelas cuja sintaxe se aproxima mais da nossa linguagem e se distanciam mais da linguagem de máquina.
+Baixo nível: É aquela que se aprixima mais da linguagem da máquina. Essas são as que você precisa ter o conhecimento direto da arquitetura do computador para fazer alguma coisa.
+
+Compiladas: É uma linguagem de programação em que o código fonte, é executado diretamento pelo sistema operacional ou pelo processador, apóser traduzido por meio de um processo chamado compilação.
+exemplo: C#
+Interpretadas: É uma linguagem de programação em que o código fonte é executado por um programa de computador chamado interpretador, que em seguida é executado pelo sistema operacional ou processador.
+exemplo: JavaScript, Python.
+
+O que é o Portugol?
+É uma pseudolinguagem que permite ao leitor desenvolver algoritmos estruturados em português de forma simples e intuitiva, independemente de linguagem de programação.
+
+OUTRA DEFINIÇÃO:
+É uma pseudolinguagem que permite ao programador pensar no problema em si e não no equipamento que irá executar o algoritmo.
+
+
+Desvio condicional
+
+"//" usa para fazer comentario/lembrete/mensagem. Utilizar antes do inicio do codigo, mas tambem pode utilizar ante do comando ( instruções) .
+"\n" como para quebrar a linha.
+
+Se 
+É utilizada a palavra reservada SE, a condição a ser testada entre parenteses "" e as intruções que devem ser executadas entre chaves {} caso o desvio seja VERDADEIRO.
+
+Senão
+Agora vamos imaginar que se a condição for FALSA um outro conjunto de comandos deve ser executado. Quando iremos encontrar essa situação
+?
+
+
+Caso
+Este comando é similar aos comandos SE e SENÃO, e reduz a complexidade na escolha de diversas opções.
+Apesar de suas similaridades com o se, ele possui algumas diferençãs. Neste comando não é possível o uso de operadores lógicos,
+ele apenas trabalha com valores definidos.
+
+Laços de repetição em Portugol:
+Dentro da lógica de programação é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um CONTADOR.
+
+contador ++ [equivale] contador=contador+1
+
+
+Matriz e vetores
+ 
+Uma MATRIZ é uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados contiguamente na memória.
+
+A individualização de cada variável de um vetor é feita através do uso de ÍNDICES.
+
+Os VETORES são matrizes de uma só dimensão.
+
+
+
+Estruturas de dados:
+-É uma estrutua organizada de dados na memória de um computador ou em qualquer dispositivo de armazenamento, de forma que os dados possam ser utilizados de forma correta.
+-Essas estruturas encontram muitas aplicações no desenvolvimento de sistemas, sendo que algumas são altamente especializadas e utilizadas em tarefas específicas.
+-Usando as estruturas adequadas através de algortmos, podemos trabalhar com uma grande quantidade de dados, como aplicações em bancos de dados ou serviços de busca.
+
+Algoritmo:
+Um algoritmo é um conjunto de instruções estruturadas e ordenadas, seu objetivo é realizar uma tarega ou operação específica.
+Os algoritmo são utilizados para MANIPULAR dados nas estruturas de várias formas, como por exemplo: inserir, excluir, procurar e ordenar dados.
+
+Em uma estrutura de dados devemos saber como realizar um determinado conjunto de operações básicas, como por exemplo:
+
+	-Inserir dados
+	-Excluir dados
+	-Localizar um elemento
+	-Percorrer todos os itens constituintes da estrutura para visualização
+	-Classifica, que se resume em colocar os itens de dados em uma determinada ordem ( numérica, alfabética, etc)
+
+
+Principais estruturas de dados:
+-Vetores e Matrizes
+-Registro
+-Lista
+-Fila
+-Árvore
+-Tabela Hash
+-Grafos
+
+
+Vetores e Matriz ( ou arrays)
+
+Vetores
+São estruturas de dados simples que podem auxiliar quando há muitas variáveis do mesmo tipo em algoritmo.
+Vetor ou array uni-dimensional é uma variável que armazena várias varáveis do mesmo tipo.
+O vetor é uma estrutura de dados indexada, que pode armazenar uma determinada quantidade de valores do mesmo tipo.
+
+Matriz
+Matriz ou array multi-dimensional é um vetor de vetores.
+Uma matriz é um vetor que possui duas ou mais dimensões. 
+
+Registro
+É uma estrutura que fornece um formato especializado para armazenar informações em memória.
+Enquanto arrays nos permitem armazenar vários dados de um único tipo de dados, os recursos de Registro nos permite armazenar mais de um tipo de dado.
+Um registro é composto por campos que especificam cada uma das informações que compõem.
+
+Exemplo:
+Abaixo podemos ver alguns campos de exemplo que constituem o registro de um cliente:
+
+CPF
+NOME 
+ENDEREÇO
+CONTATO
+
+Toda estrutura de registro tem um nome (ex:livro), e seus campos podem ser acessados por meio do uso do operador ponto (.). Por exemplo, para acessar
+o preço de um livro, poderíamos utilizar a seguinte declaração:
+							livro.preço
+
+
+Listas
+Estrutura de dados do tipo Lista, armazena dados de uma determinado tipo em uma ordem específica.
+A diferença entre listas e arrays é a de que as listas possuem tamanho ajustável, enquanto o arrays possuem tamanho fixo.
+
+Existem dois tipos de listas:
+-Ligadas
+Na estrutura do tipo lista existem os nós onde cada um dos nós conhece o valor que está sendo armazenado em seu interior além de conhecer o elemento posterior
+a ele: por isso ela é chamada de "lista ligada", pois os nós são amarrados com essa indicação de qual é o próximo nó.
+
+-Duplamento ligadas
+As listas duplamento ligadas constituem uma variação das listas ligadas.
+A grande diferença das listas duplamentos ligadas para as listas ligadas é que elas são bidirecionais. Vimos que, naturalmente, não conseguimos
+"andar para trás" em listas ligadas, pois os nós de uma lista ligada sabem somente quem é o próximo elemento. Nas listas duplamamento ligadas, 
+os nós sabem quem é o próximo elemento e também quem é o elemento anterior, o que permite a navegação reversa.
+
+Pilhas
+Uma Pilha é uma estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenado.
+O acesso aos itens de uma pilha é restrito - somente um item pode ser lido ou removido por vez.
+
+Tipo de Pilhas:
+LIFO ou UEPS:
+A estrutura do tipo PILHA LIFO (last in first out) ou UEPS (último que entra primeiro que sai), apresenta o seguinte critério: o primeiro elemento
+a ser retirado é o último que tiver sido inserido.
+
+FIFO ou PEPS:
+A estrutura do tipo PILHA FICO (first in first out) ou PEPS (primeiro que entra primeiro que sai), apresenta o seguinte critério: o primeiro elemento
+a ser retirado é o primeiro que tiver sido inserido.
+
+
+Filas
+A estrutura do tipo Fila admite remoção de elementos e inserção de novos sujeito á seguinte regra de operação:
+o elemento removido é o que está na estrutura há mais tempo ou seja, o primeiro objeto inserido na fila é também o primeiro a ser removido seguindo o conceito FIFO.
+
+
+Arvore:
+É uma estrutura de dados que organiza seus elementos de forma hierárquica, onde existe um elemento que fica no topo da árvore, chamado de raiz e existem os
+elementos subordinados a ele, que são chamados de 'nós' ou 'folhas'.
+
+Tabela hash ou Tabela de espalhamento:
+Uma tabela hash, de dispersão ou espalhamento é uma estrutura de dados especial, que associa chaves de pesquisa a valores.
+Uma tabela hash é uma generalização da idéia de array, porém utiliza uma função denominada Hashing para espalhar os elementos, fazendo com que os mesmo fiquem de forma
+não ordenada dentro do "array" que define a tabela.
+
+Porque espalhar?
+A tabela hash permite a associação de "valores" a "chaves".
+-Valores: é a posição ou índice onde o elemento se encontra.
+-Chave: parte da informação que compõe o elemento a ser manipulado.
+
+Espalhar facilita a busca na estrutura de dados, pois a partir de uma chave podemos acessar de forma rápida uma posição do "array".
+
+
+Grafos:
+São estruturas que permitem programar a relação entre objetos.
+Os objetos são vértices ou "nós" do grafo.
+Os relacionamentos são arestas.
+
+
+
+Git e Github
+
+1-Controle de versão;
+2-Armazenamento em nuvem;
+3-Trabalho em equipe;
+4-Melhorar seu código;
+5-Reconhecimento.
+
+
+Navegação básica no terminal & instalação
+
+GUI x CLI
+
+O que vamos aprender?
+-Mudar de pastas
+-Listar as pastas
+-Criar pastas/arquivos
+-Deletar pastas/arquivos
+
+
+Windows									Unix
+-cd (navegar/navegar na pastar selecionada)				-cd(navegar/navegar na pastar selecionada)
+-dir (listar)								-ls (listar)
+-mkdir (criar uma pasta)						-mkdir (criar uma pasta)
+-del/rmdir*								-rm -rf (deletar pasta e arquivo)
+-cls (limpar terminal)							-clear (limpar terminal)
+-echo (criar um arquivo/comando print)					-echo (criar um arquivo/comando print)
+*del (deletar/ del (nome da ARQUIVO)					
+*rmdir (remover(deletar) PASTA ( usasse /S /Q no comando)
+
+
+Entendo o GIT
+
+-SHA1
+A sigla SHA significa Secure Hash Algorithm (Algorimo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas 
+pela NSA (Agência de Segurança Nacional dos EUA).
+A encriptação gera um conjunto de caracteres identificador de 40 dígitos.
+
+-Objetos fundamentais
+
+BLOBS:Um blob (objeto binário grande) do Git é o tipo de objeto usado para armazenar o conteúdo de cada arquivo em um repositório. O hash SHA-1 do arquivo é calculado e armazenado no objeto do blob.
+TREES:A tree representa um diretório, contendo uma mistura de blobs e trees.
+COMMITS:Os commits são as unidades estruturais de um cronograma de projeto Git. Podem ser considerados instantâneos ou marcos ao longo do cronograma de um projeto Git. 
+São criados com o comando git commit para capturar o estado de um projeto naquele momento.
+
+-Sistema distruibuído
+Sistema para cooperação/uso em equipe.
+-Segurança
+
+
+Chaves SSH e Tokens
+
+
+Primeiros comandos com o GIT
+
+-Iniciar o GIT ( - git init )
+-Iniciar o versioamento ( - git add )
+-Criar um commit( - git commit )
+
+Adicionado um arquivo
+
+
+Tracked & Untracked ( imagem )
